@@ -182,7 +182,7 @@ a{
 				letter-spacing: 2px;
 			}
 
-@media all and (max-width: 800px){
+@media all and (max-width: 1120px){
 	.section{
 		flex-direction: column;
 	}
@@ -194,11 +194,25 @@ a{
 		display: flex;
 		justify-content: center;
 	}
+	h1{
+		font-size: 15px;
+	}
+	.texto-principal{
+		height: 450px;
+	}
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 762px){
 	.articulos{
 		flex-direction: column;
+	}
+}
+@media all and (max-width: 650px){
+	.off{
+		display: none;
+	}
+	.nav a{
+		font-size: 25px;
 	}
 }
 
